@@ -75,6 +75,10 @@ export default {
             type: Number,
             default: 0
         },
+        type: {
+            type: Number,
+            default: 1
+        },
         height: {
             type: Number,
             default: 500
@@ -117,7 +121,15 @@ export default {
     beforeMount() {
         var head = document.head;
         var script = document.createElement("script");
-        script.src = "./static/js/soljson-v0.4.25-gm.js";
+        switch (this.type) {
+            case 1:
+                script.src = "./static/js/soljson-v0.4.25-gm.js";
+                break;
+        
+            case 2:
+                script.src = "./static/js/soljson-v0.4.25+commit.59dbf8f1.js";
+                break;
+        }
         script.setAttribute('id', 'soljson');
         if (!document.getElementById('soljson')) {
             head.append(script)
