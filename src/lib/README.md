@@ -31,7 +31,7 @@
 
 ```javascript
 import Vue from 'vue';
-import webaseIde from 'webase-ide;
+import webaseIde from 'webase-ide';
 import App from './App.vue';
 Vue.use(webaseIde);
 new Vue({
