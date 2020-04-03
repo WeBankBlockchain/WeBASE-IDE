@@ -1,6 +1,16 @@
-# ide
+# CODE IDE
 
-> A Vue.js project
+> A Vue.js 2.0 &&  Ace IDE Toolkit for Web.
+>
+> - 支持合约编译
+
+## Links
+
+<!--npm link-->[https://www.npmjs.com/package/webase-ide](webase-ide)
+
+## Browser Support
+
+Chrome
 
 ## Build Setup
 
