@@ -6,7 +6,7 @@
 
 ## Links
 
-- [https://www.npmjs.com/package/webase-ide](webase-ide)
+- [webase-ide插件安装教程](https://www.npmjs.com/package/webase-ide)
 
 ## Browser Support
 
