@@ -6,7 +6,7 @@
 
 ## Links
 
-<!--npm link-->[https://www.npmjs.com/package/webase-ide](webase-ide)
+- [https://www.npmjs.com/package/webase-ide](webase-ide)
 
 ## Browser Support
 
