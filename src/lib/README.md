@@ -31,7 +31,7 @@
 
 ```javascript
 import Vue from 'vue';
-import webaseIde from 'webase-ide;
+import webaseIde from 'webase-ide';
 import App from './App.vue';
 Vue.use(webaseIde);
 new Vue({
@@ -48,10 +48,11 @@ new Vue({
 
 参数
 
-| 参数   | 说明      | 类型   | 默认 |
-| ------ | --------- | ------ | ---- |
-| data   | 合约列表  | Array  | -    |
-| height | ide的高度 | Number | 500  |
+| 参数   | 说明         | 类型   | 默认 |
+| ------ | ------------ | ------ | ---- |
+| data   | 合约列表     | Array  | -    |
+| height | ide的高度    | Number | 500  |
+| type   | 合约编译版本 | Number | 1    |
 
 事件
 
